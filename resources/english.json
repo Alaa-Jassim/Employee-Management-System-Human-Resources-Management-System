@@ -1,0 +1,30 @@
+{
+  "insert employee":{
+    "title insert employee" : "Add an employee",
+    "search label insert employee" : "Please enter your employee ID number",
+    "delete label insert employee" : "Please enter your PIN to be able to delete the employee",
+    "email label insert employee" : "E-mail",
+    "id number insert employee" : "ID number",
+    "name label insert employee" : "Employee name",
+    "salary label insert employee" : "Monthly salary",
+    "section label insert employee" : "Section",
+    "city lable insert employee" : "City" ,
+    "date label insert employee" : "Registration date",
+    "age label insert employee" : "Age",
+    "search button insert employee" : "Search" ,
+    "delete button insert employee" : "Delete" ,
+    "insert button insert employee" : "Add data",
+    "update button insert employee" : "Update employee",
+    "button delete data insert employee" : "Delete Data",
+    "button empty insert employee" : "Empty data",
+    "button show insert employee" : "Show data",
+    "button image insert employee" : "Choice image",
+    "message successfully insert employee" :"Successfully completed, do you agree to change the language?",
+    "error choice langugae" : "Please select language",
+    "error select language" : "Sorry, an unknown error occurred."
+  }
+}
+
+
+
+
