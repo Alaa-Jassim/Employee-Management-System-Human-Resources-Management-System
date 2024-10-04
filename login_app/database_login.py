@@ -54,13 +54,15 @@ class DatabaseLogin:
 			if self.messagebox_successfuly in ("yes","Yes"):
 				self.insert_data()
 				self.messagebox_save = messagebox.showinfo("تم بنجاح", "تم تسجيل البيانات بنجاح يمكنك الآن تسجيل الدخول", parent=self.root)
+				self.message_restart = messagebox.showinfo("تم إنشاء الحساب بنجاح",
+														   "الرجاء أعد تشغيل التطبيق لكي تتتمكن من تسجيل الدخول",
+														   parent=self.root)
 
 			else:
 				self.messagebox_cancel = messagebox.showinfo("شكراً لك", "هل تريد أن تتراجع عن هذا الأمر؟", parent=self.root)
 
 				if self.messagebox_cancel in ("ok","Ok"):
 					self.messagebox_thanks = messagebox.showinfo("شكراً لك", "تم بنجاح يمكنك الآن إنشاء حساب بمعلومات جديدة", parent=self.root)
-					self.message_restart = messagebox.showinfo("تم إنشاء الحساب بنجاح", "الرجاء أعد تشغيل التطبيق لكي تتتمكن من تسجيل الدخول", parent=self.root)
 
 
 
