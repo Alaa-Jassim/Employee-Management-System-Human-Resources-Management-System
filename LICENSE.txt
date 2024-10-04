@@ -1,18 +1,17 @@
+
 ### رخصة استخدام مشروع "نظام إدارة شؤون الموظفين"
 
 ---
-
-**رخصة استخدام نظام إدارة شؤون الموظفين**
 
 **المؤلف:** علاء جاسم محمد  
 **تاريخ الإصدار:** [تاريخ الإصدار]  
 **النسخة:** 2.0  
 
-**البريد الإلكتروني:** [alobede2001alobede@gmail.com]  
+**البريد الإلكتروني:** alobede2001alobede@gmail.com  
 **قناة اليوتيوب:** [ajm0o](https://www.youtube.com/@ajm0o)  
-**حساب تويتر:** [https://twitter.com/ajm0o?t=FJU-kueejivy0G-KZPOBkQ&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;s=09]  
-**حساب فيسبوك:** [https://www.facebook.com/alaa.jassim.mohammed/]  
-**حسابي في موقع هرموش:** [https://harmash.com/users/alaa.jassim.mohammed]  
+**حساب تويتر:** [حساب تويتر](https://twitter.com/ajm0o?t=FJU-kueejivy0G-KZPOBkQ&s=09)  
+**حساب فيسبوك:** [حساب فيسبوك](https://www.facebook.com/alaa.jassim.mohammed/)  
+**حسابي في موقع هرموش:** [حسابي في موقع هرموش](https://harmash.com/users/alaa.jassim.mohammed)  
 
 ---
 
@@ -35,5 +34,3 @@
 
 ### 6. القبول
 باستخدام هذا المشروع، يوافق المستخدمون على الالتزام بهذه الرخصة.
-
----
