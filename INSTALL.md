@@ -9,7 +9,7 @@
   - tkcalendar
   - Pillow
   - babel
-  - threaded
+  - threading
 
 ## كيفية تثبيت المكتبات
 **يمكن تثبيت المكتبات باستخدام الأمر التالي:**
@@ -18,7 +18,7 @@
 pip install tkcalendar
 pip install Pillow
 pip install babel
-pip install threaded
+pip install threading
 ```
 
 ## كيفية تشغيل المشروع
