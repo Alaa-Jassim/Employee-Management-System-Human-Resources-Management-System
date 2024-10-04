@@ -67,11 +67,7 @@ class DatabaseBackUp:
 
 	def check_path_save_data(self):
 		self.save_location_path = self.backup_path = filedialog.asksaveasfilename(
-                                     filetypes=[("All files", "*.*")],  title="اختر مكان حفظ النسخة الاحتياطية")
-
-		# self.entry_backup.delete(0,END)
-		# self.entry_backup.insert(0, self.class_database_back_up.save_location_path)
-
+                                     filetypes=[("All files", "*.*")],  title="اختر مكان حفظ النسخة الاحتياطية", parent=self.root)
 
 
 	def create_backup(self):
