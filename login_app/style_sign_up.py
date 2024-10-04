@@ -138,11 +138,4 @@ class StyleSignUp(object):
             self.class_window_login = StyleLoginApp(self.window_sing_in)
             self.window_sing_in.mainloop()
 		
-		
-
-		
-
-if __name__=='__main__':
-	app = Tk()
-	main_class = StyleSignUp(app)
-	app.mainloop()
+	

@@ -26,7 +26,7 @@ def get_appdata_dir(subfolder_name=None):
 
 
 def copy_resources_folder():
-    """Sync the resources folder with the AppData directory."""
+    """Copy the resources folder to the AppData directory if it doesn't exist."""
     source = get_resources_path()
     if source is None:
         return "Error: Resources folder not found."
@@ -34,20 +34,14 @@ def copy_resources_folder():
     destination = get_appdata_dir('resources')
 
     if not os.path.exists(destination):
-        shutil.copytree(source, destination)
-        return f"Copied resources from {source} to {destination}"
+        try:
+            shutil.copytree(source, destination)
+            return f"Copied resources from {source} to {destination}"
+        except Exception as e:
+            return f"Error copying resources: {e}"
 
+    return f"Resources already synchronized at {destination}."
 
-    comparison = filecmp.dircmp(source, destination)
-
-
-    for file in comparison.right_only:
-        shutil.copy2(os.path.join(source, file), destination)
-    
-    for file in comparison.diff_files:
-        shutil.copy2(os.path.join(source, file), destination)
-
-    return f"Synchronized resources from {source} to {destination}"
 
 
 def manager_Sqlite3(sub_dir, file_name):

@@ -24,8 +24,6 @@ class DataBaseVacations:
 		self.root = root 
 		
 		self.create_database_vacations()
-		copy_resources_to_destination("database_vacations", "database_vacations.db")
-
 
 		self.class_treeview_vacations = TreeviewVacations(self.root)
 		self.class_treeview_vacations.ShowTreeview()

@@ -49,12 +49,12 @@ class DataBase(Thread):
 		self.var_time_7dor = StringVar()
 		self.var_id = StringVar()
 
+		self.create_database()
 		self.class_treeview = TreeviewApp(self.master)
 		self.class_treeview.show_treeview()
-		self.class_treeview.select_data()
 		self.class_treeview.table_data.bind('<ButtonRelease-1>',self.get_cursor)
 
-		self.create_database()
+		self.class_treeview.select_data()
 
 	def addimage(self):
 		""" Add Image Employee And Save In SQlite3 """
