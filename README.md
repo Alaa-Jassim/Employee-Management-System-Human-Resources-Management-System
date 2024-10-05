@@ -131,4 +131,5 @@
 
 
 ## المطور
-![نص بديل](author/author.jpg)
+<img src="author/author.jpg" alt="نص بديل" width="300" />
+
