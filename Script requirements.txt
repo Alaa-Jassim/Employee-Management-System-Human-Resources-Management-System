@@ -1,8 +1,0 @@
-
-حتى تقوم بتشغيل السكربت يجب عليك تحميل هذه المكاتب عن طريق مدير الحزم pip
-
-
-1- pip install tkcalendar
-2- pip install Pillow
-3- pip install babel
-4- pip install threaded
