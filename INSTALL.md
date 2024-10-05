@@ -29,8 +29,8 @@ pip install threading
 
 1. **قم بتنزيل المشروع من GitHub:**
    ```bash
-   git clone https://github.com/Alaa-Jassim/Application.git
-   cd Application
+   git clone https://github.com/Alaa-Jassim/Employee-Management-System-Human-Resources-Management-System.git
+   cd Employee-Management-System-Human-Resources-Management-System
 
 - تأكد من أنك في المجلد الصحيح حيث يوجد الملف الرئيسي.
 
