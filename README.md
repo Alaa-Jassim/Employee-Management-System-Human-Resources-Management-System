@@ -1,8 +1,6 @@
 
-
-
-# مشروع‏Employee Management System
-‏Human Resources Management SystemSimplified Personnel Management
+# ‏Employee Management System
+‏Human Resources Management Syste
 
 برنامج إدارة شؤون الموظفين سهل الاستخدام جداً ولا يحتوي على أي تعقيدات. يهدف البرنامج إلى تسهيل إدارة بيانات الموظفين من خلال واجهة بسيطة. 
 
